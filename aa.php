@@ -19,7 +19,7 @@ include("connection.php");
 	</div> 
 	</form>
 <?php
-session_start();
+//session_start();
 if(!isset($_SESSION["username"])){
 header("location:login.php");}
 $account=$_SESSION['account'];
